@@ -109,8 +109,8 @@
 
 #GROVE
 Grove of Spears, The Kindred, Grove, M, 1, Calgacaus, M, 1, 1, 1, 1, 0,
-  TECH, 2, SOCIAL, +RESEARCH, SOCIAL, +EFFIC, SOCIAL, +MORALE, FREEPROTO, 0
-  Values, Knowledge, RESEARCH
+  TECH, 2, SOCIAL, +RESEARCH, SOCIAL, +TALENT, SOCIAL, -GROWTH, FACILITY, 2, UNIT, 0, FREEPROTO, 0
+  nil, nil, TALENT
   nil, nil, nil
   Grove, Grove,
   Gertrude, Thorbjorn, Aesir Meadery
@@ -184,8 +184,10 @@ I am afraid that I am the only real person in the universe.
 
 #DATALINKS2
 ^+1 RESEARCH: {Tallented research}
-^+1 MORALE: {Warrior ideology}
-^+1 EFFICIENCY: {Experience with resource conservation}
+^+1 TALENT: {Quality community}
+^-1 GROWTH: {Quality over Quantity}
+^Free Facility: Children's Creche {Family Oriented}
+^Bonus Unit: Colony Pod
 ^Prototype units do not cost extra minerals.
 
 
@@ -224,4 +226,3 @@ that our peoples may live side by side in peace."
 "$NAME3: untrusted. Treaty: not advisable."
 
 # ; This line must remain at end of file
-
