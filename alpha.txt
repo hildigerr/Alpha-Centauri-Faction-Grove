@@ -65,7 +65,7 @@
 25,      ; Combat % -> Defend in range of friendly Sensor
 10,      ; Combat % -> Psi attack bonus/penalty per +PLANET
 50,      ; Retool percent penalty for production change
-2,       ; Retool strictness (0 = Always Free, 1 = Free in Category, 2 = Free if Project, 3 = Never Free)
+1,       ; Retool strictness (0 = Always Free, 1 = Free in Category, 2 = Free if Project, 3 = Never Free)
 10,      ; Retool exemption (first X minerals not affected by penalty)
 20,      ; Minimum # of turns between councils
 5,       ; Minerals for harvesting forest
@@ -91,7 +91,7 @@ PlaEcon, ; Technology for economic victory
 2100     ; Normal starting year
 2600     ; Normal ending year for lowest 3 difficulty levels
 2500     ; Normal ending year for highest 3 difficulty levels
-1        ; If non-zero, obliterating a base counts as an atrocity
+0        ; If non-zero, obliterating a base counts as an atrocity
 
 
 ;
@@ -759,17 +759,17 @@ ECONOMY, EFFIC, SUPPORT, TALENT, MORALE, POLICE, GROWTH, PLANET, PROBE, INDUSTRY
 ECONOMY, EFFIC, SUPPORT, TALENT, MORALE, POLICE, GROWTH, PLANET, PROBE, INDUSTRY, RESEARCH
 Politics, Economics, Values, Future Society
 Frontier,        None,
-Police State,    DocLoy,  ++POLICE, ++SUPPORT, --EFFIC
-Democratic,      EthCalc, ++EFFIC,  ++GROWTH,  --SUPPORT
-Fundamentalist,  Brain,   +MORALE,  ++PROBE,   --RESEARCH
+Imperialist,     DocLoy,  ++POLICE, ++SUPPORT, --GROWTH
+Democratic,      EthCalc, +MORALE, ++GROWTH,  --POLICE
+Fundamentalist,  Brain,   ++MORALE,  ++PROBE,   --RESEARCH
 Simple,          None,
-Free Market,     IndEcon, ++ECONOMY, ---PLANET, -----POLICE
+Free Market,     IndEcon, ++ECONOMY, ++INDUSTRY, ---PLANET
 Planned,         PlaNets, ++GROWTH,  +INDUSTRY,  --EFFIC
-Green,           CentEmp, ++PLANET,  ++EFFIC,    --GROWTH
+Green,           CentEmp, ++PLANET,  ++EFFIC,    --INDUSTRY
 Survival,        None,
 Power,           MilAlg,  ++MORALE,   ++SUPPORT, --INDUSTRY
 Knowledge,       Cyber,   ++RESEARCH, +EFFIC,    --PROBE
-Wealth,          IndAuto, +INDUSTRY,  +ECONOMY,  --MORALE
+Wealth,          IndAuto, +INDUSTRY,  ++ECONOMY,  --MORALE
 None,            None,
 Cybernetic,      DigSent, ++EFFIC,  ++PLANET,  ++RESEARCH, ---POLICE
 Eudaimonic,      Eudaim,  ++GROWTH, ++ECONOMY, ++INDUSTRY, --MORALE
@@ -1055,7 +1055,7 @@ COMMFREQ, MINDCONTROL, FANATIC, VOTES, FREEPROTO
 ;
 #FACTIONS
 GAIANS,   GAIANS
-HIVE,     HIVE
+GROVE, GROVE
 UNIV,     UNIV
 MORGAN,   MORGAN
 SPARTANS, SPARTANS
