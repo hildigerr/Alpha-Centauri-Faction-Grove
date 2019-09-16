@@ -12,7 +12,7 @@
 
 #DRONE
 The Free Drones, The Laborer, Drones, M, 2, Domai, M, 0, 0, 0, 1, 0, 
-  TECH, Indust, SOCIAL, ++INDUSTRY, SOCIAL, --RESEARCH, NODRONE, 1, REVOLT, 75
+  TECH, Indust, SOCIAL, ++INDUSTRY, SOCIAL, -RESEARCH, SOCIAL, -PLANET, NODRONE, 1, REVOLT, 75
   Future Society, Eudaimonic, INDUSTRY
   Economics, Green, nil
   Free Drone, Free D.
@@ -93,7 +93,8 @@ Coral Warehouse
 
 #DATALINKS2
 ^+2 INDUSTRY: {Excellent craftsmen and skilled workers}
-^-2 RESEARCH: {Emphasis on productivity instead of 'blue-sky' research}
+^-1 PLANET: {Planetary stewareship gets in the way of production}
+^-1 RESEARCH: {Emphasis on productivity instead of 'blue-sky' research}
 ^Revolting bases tend to join drones: {Offer a workingman's paradise}
 ^-1 DRONES in every base: {Working for common good reduces discontent}
 ^{May not use Green economics.}

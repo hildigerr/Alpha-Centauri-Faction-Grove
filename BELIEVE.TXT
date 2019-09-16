@@ -12,8 +12,8 @@
 
 #BELIEVE
 The Lord's Believers, The Fundamentalist, Believers, M, 2, Miriam, F, 1,  1, 0, 0, 1,
-  TECH, Psych, SOCIAL, --RESEARCH, SOCIAL, +PROBE, SOCIAL, ++SUPPORT, SOCIAL, -PLANET, FANATIC, 0
-  Politics, Fundamentalist, PROBE
+  TECH, Psych, SOCIAL, --RESEARCH, SOCIAL, ++PROBE, SOCIAL, +SUPPORT, SOCIAL, -PLANET, SOCIAL, +POLICE
+  Politics, Fundamentalist, GROWTH
   Values, Knowledge, nil
   Believing, Belv.,
   Jessica, Westcott, Jessica's Faith
@@ -103,9 +103,9 @@ that were evil.
 ^
 
 #DATALINKS2
-^+25% Bonus when attacking enemies, from strength of convictions.
-^+1 PROBE:  {Devout believers difficult to brainwash}
-^+2 SUPPORT: {Citizens eager to defend faith}
+^+1 Police: {Rigid enforcement of commandments}
+^+2 PROBE:  {Devout believers already brainwashed}
+^+1 SUPPORT: {Citizens eager to defend faith}
 ^-2 RESEARCH:  {Suspicious of secular science}
 ^-1 PLANET:  {Believe Planet is their promised land}
 ^Accumulates NO research points until MY 2110.
@@ -153,4 +153,3 @@ sign a Treaty of Friendship and worship together in peace."
 
 
 # ; This line must remain at end of file
-

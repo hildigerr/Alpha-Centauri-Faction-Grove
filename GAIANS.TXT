@@ -12,7 +12,7 @@
 
 #GAIANS
 Gaia's Stepdaughters, The Green, Gaians, F, 2, Deirdre, F, -1, 0, 0, 0, 1,
-  TECH, Ecology, SOCIAL, -MORALE, SOCIAL, -POLICE, SOCIAL, ++EFFIC, SOCIAL, +PLANET, FUNGNUTRIENT, 1
+  TECH, Ecology, SOCIAL, -MORALE, SOCIAL, -POLICE, SOCIAL, +EFFIC, SOCIAL, ++PLANET, FUNGNUTRIENT, 1
   Economics, Green, PLANET
   Economics, Free Market, nil
   Gaian, Gaian,
@@ -93,8 +93,8 @@ itself, never to repeat the tragedy of Earth.
 ^
 
 #DATALINKS2
-^+1 PLANET: {Environmental safeguards; can capture mindworms}
-^+2 EFFICIENCY: {Experience with life systems & recycling}
+^+2 PLANET: {Environmental safeguards; can capture mindworms}
+^+1 EFFICIENCY: {Experience with life systems & recycling}
 ^-1 MORALE: {Pacifist tendencies}
 ^-1 POLICE: {Freedom loving}
 ^+1 Nutrients in fungus squares
@@ -141,4 +141,3 @@ we may learn at your ... uh ... knee?"
 "Your understanding of Manifold Six: feeble. Treaty: not at this time."
 
 # ; This line must remain at end of file
-

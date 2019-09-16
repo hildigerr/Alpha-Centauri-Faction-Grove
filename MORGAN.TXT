@@ -12,9 +12,9 @@
 
 #MORGAN
 Morgan Industries, The Mogul, Morganites, M, 2, Morgan, M, -1,  0, 0, 1, 0,
-  TECH, Indust, ENERGY, 100, SOCIAL, +ECONOMY, POPULATION, 3, COMMERCE, 1, SOCIAL, -SUPPORT
+  TECH, Indust, ENERGY, 100, SOCIAL, +ECONOMY, POPULATION, 3, COMMERCE, 1, SOCIAL, -SUPPORT, SOCIAL, +INDUSTRY, SOCIAL, -PLANET,  
   Economics, Free Market, ECONOMY
-  Economics, Planned, nil
+  Economics, Green, nil
   Morganic, Morgan,
   Jeneba, Kai, The Jeneba Complex
   CEO, shrewd, monopolistic, wealthy, bloated,
@@ -88,8 +88,10 @@ thrumming of our common pulse.
 ^
 
 #DATALINKS2
+^+1 INDUSTRY: {Industrial conglomorate}
 ^+1 ECONOMY:  {Industrial conglomerate}
 ^-1 SUPPORT:  {Followers have expensive tastes}
+^-1 PLANET: {Planetary stewardship is an unnecessary expense} 
 ^COMMERCE: {bonus increases value of treaties, pacts, loans}
 ^Begins with 100 extra energy credits.
 ^Need HAB COMPLEX for bases to exceed size 4: {Creature comforts at a premium}
@@ -134,4 +136,3 @@ sign a Treaty of Friendship and work toward other common goals?"
 "Progenitor: no benefit: human treaty policies. Decline: politely."
 
 # ; This line must remain at end of file
-

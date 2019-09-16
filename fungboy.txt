@@ -92,7 +92,7 @@ of men. I will make them see it. I will make them hear it.
 
 #DATALINKS2
 ^+2 PLANET: {Devoted to promoting native growth}
-^-1 INDUSTRY: {Reluctant to pollute environment}
+^-1 INDUSTRY: {Reluctant to harm natural environment}
 ^-1 ECON: {Disinterested in wealth and its trappings}
 ^Free BROOD PIT with discovery of Centauri Genetics
 ^Mind Worms do double police duty: {Fear and reverence for native life}
