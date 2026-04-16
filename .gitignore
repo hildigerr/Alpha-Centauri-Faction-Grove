@@ -1,2 +1,6 @@
 *.tmp
 *.flc
+*.log
+*.zst
+*.iso
+*.tar.gz
